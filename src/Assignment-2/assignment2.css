@@ -4,6 +4,8 @@
   width: 100%;
 }
   /* header_style */
+
+/* header starts */
 header{
 height: 300px;
 width:100%;
@@ -30,6 +32,7 @@ header form .search_icon{
   right: 90px;
   top: 92px;
 }
+/* navigation bar in header section */
 nav{
   text-align: center;
   padding-top: 250px;
@@ -40,6 +43,9 @@ nav a{
   margin: 6%;
   cursor: pointer;
 }
+/* navigation bar in header section and header ends */
+
+/* left aside bar starts */
 .leftsidebar{
   width:20%;
   height: auto;
@@ -55,8 +61,10 @@ nav a{
 .leftsidebar ul li {
   margin: 49px 0px;
   font-size:30px;
-  
 }
+/* left aside bar ends */
+
+/* middle body starts */
 .middlebody{
   align-content: center;
   width: 50%;
@@ -69,6 +77,9 @@ nav a{
   height:auto;
   margin: 50px 15px;
 }
+/* middle body ends */
+
+/* right aside bar starts */
 .right-sidebar{
   width: 15%;
   height:auto;
@@ -86,7 +97,9 @@ nav a{
   margin:87px 0px;
   font-size: 40px;
 }
+/* right aside bar ends */
 
+/* footer starts */
 .footer-text{
   width:100%;
   height:200px;
@@ -97,6 +110,9 @@ nav a{
   font-size: 25px;
   vertical-align: auto;
 }
+/* footer ends */
+
+/* removing bottom display lines to the hyperlink references */
 a:link {
   text-decoration: none;
 }
