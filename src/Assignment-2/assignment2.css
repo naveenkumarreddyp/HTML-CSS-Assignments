@@ -1,43 +1,44 @@
 /* Our CSS file. */
 
-.container, .content {
+.container,
+.content {
   width: 100%;
 }
-  /* header_style */
+/* header_style */
 
 /* header starts */
-header{
-height: 300px;
-width:100%;
-margin: auto;
-background-color: rgb(43, 147, 250);
+header {
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(43, 147, 250);
 }
-header .logo{ 
+header .logo {
   width: 30px;
-  height:30px;
-  float:left;
+  height: 30px;
+  float: left;
   border-radius: 60%;
   margin: 30px 20px;
 }
-header .search_bar{
-  float:right;
-  height:30px;
-  width:20%;
+header .search_bar {
+  float: right;
+  height: 30px;
+  width: 20%;
   margin: 80px 80px;
 }
-header form .search_icon{
-  width:30px;
-  height:30px;
+header form .search_icon {
+  width: 30px;
+  height: 30px;
   position: absolute;
   right: 90px;
   top: 92px;
 }
 /* navigation bar in header section */
-nav{
+nav {
   text-align: center;
   padding-top: 250px;
 }
-nav a{
+nav a {
   font-size: 30px;
   color: white;
   margin: 6%;
@@ -46,43 +47,43 @@ nav a{
 /* navigation bar in header section and header ends */
 
 /* left aside bar starts */
-.leftsidebar{
-  width:20%;
+.leftsidebar {
+  width: 20%;
   height: auto;
   background-color: cornflowerblue;
   position: absolute;
   top: 308px;
 }
-.leftsidebar ul{
+.leftsidebar ul {
   margin-left: 50px;
   margin-top: 30px;
   list-style-type: none;
 }
 .leftsidebar ul li {
   margin: 49px 0px;
-  font-size:30px;
+  font-size: 30px;
 }
 /* left aside bar ends */
 
 /* middle body starts */
-.middlebody{
+.middlebody {
   align-content: center;
   width: 50%;
-  height:auto;
+  height: auto;
   margin-top: 20px;
   margin-left: 27%;
 }
-.middlebody img{
-  width:30%;
-  height:auto;
+.middlebody img {
+  width: 30%;
+  height: auto;
   margin: 50px 15px;
 }
 /* middle body ends */
 
 /* right aside bar starts */
-.right-sidebar{
+.right-sidebar {
   width: 15%;
-  height:auto;
+  height: auto;
   position: absolute;
   background-color: cornflowerblue;
   top: 308px;
@@ -93,16 +94,16 @@ nav a{
   margin-top: 30px;
   list-style-type: none;
 }
-.right-sidebar li{
-  margin:87px 0px;
+.right-sidebar li {
+  margin: 87px 0px;
   font-size: 40px;
 }
 /* right aside bar ends */
 
 /* footer starts */
-.footer-text{
-  width:100%;
-  height:200px;
+.footer-text {
+  width: 100%;
+  height: 200px;
   background-color: darkslateblue;
 }
 .footer-text p {
