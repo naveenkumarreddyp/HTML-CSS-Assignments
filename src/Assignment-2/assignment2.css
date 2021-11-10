@@ -1,7 +1,6 @@
 /* Our CSS file. */
 
-.container,
-.content {
+#container {
   width: 100%;
 }
 /* header_style */
