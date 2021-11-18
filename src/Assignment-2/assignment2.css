@@ -1,7 +1,118 @@
 /* Our CSS file. */
 
+#container {
+  width: 100%;
+}
+/* header_style */
 
-.container, .content {
-width: 100%;
-height: 100%;
+/* header starts */
+header {
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(43, 147, 250);
+}
+header .logo {
+  width: 30px;
+  height: 30px;
+  float: left;
+  border-radius: 60%;
+  margin: 30px 20px;
+}
+header .search_bar {
+  float: right;
+  height: 30px;
+  width: 20%;
+  margin: 80px 80px;
+}
+header form .search_icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 90px;
+  top: 92px;
+}
+/* navigation bar in header section */
+nav {
+  text-align: center;
+  padding-top: 250px;
+}
+nav a {
+  font-size: 30px;
+  color: white;
+  margin: 6%;
+  cursor: pointer;
+}
+/* navigation bar in header section and header ends */
+
+/* left aside bar starts */
+.leftsidebar {
+  width: 20%;
+  height: auto;
+  background-color: cornflowerblue;
+  position: absolute;
+  top: 308px;
+}
+.leftsidebar ul {
+  margin-left: 50px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+.leftsidebar ul li {
+  margin: 49px 0px;
+  font-size: 30px;
+}
+/* left aside bar ends */
+
+/* middle body starts */
+.middlebody {
+  align-content: center;
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 27%;
+}
+.middlebody img {
+  width: 30%;
+  height: auto;
+  margin: 50px 15px;
+}
+/* middle body ends */
+
+/* right aside bar starts */
+.right-sidebar {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  background-color: cornflowerblue;
+  top: 308px;
+  right: 8px;
+}
+.right-sidebar ul {
+  margin-left: 50px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+.right-sidebar li {
+  margin: 87px 0px;
+  font-size: 40px;
+}
+/* right aside bar ends */
+
+/* footer starts */
+.footer-text {
+  width: 100%;
+  height: 200px;
+  background-color: darkslateblue;
+}
+.footer-text p {
+  padding: 30px;
+  font-size: 25px;
+  vertical-align: auto;
+}
+/* footer ends */
+
+/* removing bottom display lines to the hyperlink references */
+a:link {
+  text-decoration: none;
 }
